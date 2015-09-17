@@ -24,6 +24,9 @@ hr{
 	font-size: 0.7em;
 	/*color:#a0e0c6;*/
 }
+.container-fluid{
+	max-width: 940px;
+}
 .content-inner{
 	padding:0 40px;
 }
@@ -34,9 +37,9 @@ hr{
 .rb-header{
 	padding-top:20px;
 	background-color: #fff;
-	background-position: right top;
 	background-repeat: no-repeat;
 	height: 370px;
+	background-size: cover;
 }
 .rb-header h2{
 	line-height: 1.2em;
@@ -82,10 +85,11 @@ hr{
 	}
 	.rb-header h2{
 		text-align: left;
-		max-width: 290px;
 		margin: auto;
 		font-size: 30px;
-		margin: 15px auto;
+		margin: 15px auto 20px;
+		max-width: 301px;
+		line-height: 1.1em;
 	}
 	.rb-header-divider{
 		background-position: 60% 50%;
@@ -95,11 +99,11 @@ hr{
 }
 @media (min-width: 768px) {
 	.container-fluid{
-		width: 942px;
+		/*width: 942px;*/
 		box-shadow: 0 0 13px rgba(0,0,0,0.35);
 	}
 	.rb-header{
-		background-image: url(img/people.png);
+		background-image: url(img/people.jpg);
 	}
 	.rb-header h2>span{
 		display: block;
