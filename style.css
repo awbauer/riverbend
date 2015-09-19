@@ -190,23 +190,6 @@ footer ul{
 footer a{
 	font-weight: bold;
 }
-@media (max-width: 767px) {
-	.rb-header{
-		text-align: center;
-		height: 300px;
-	}
-	.rb-header .subheadings{
-		text-align: left;
-		margin: auto;
-		font-size: 30px;
-		margin: 15px auto 20px;
-		max-width: 301px;
-		line-height: 1.1em;
-	}
-	.rb-header-divider{
-		background-position: 60% 50%;
-	}
-}
 @media (min-width: 768px) {
 	.container-fluid{
 		/*width: 942px;*/
@@ -236,13 +219,28 @@ footer a{
 		font-size: 32px;
 	}
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
+	.rb-header{
+		text-align: center;
+		height: 330px;
+	}
+	.rb-header .subheadings{
+		text-align: left;
+		margin: auto;
+		font-size: 34px;
+		margin: 15px auto 20px;
+		max-width: 342px;
+		line-height: 1.1em;
+	}
+	.rb-header-divider{
+		background-position: 60% 50%;
+	}
 	.person:nth-child(n+3){
 		padding-top: 20px;
 	}
 	.rb-content-top h1{
 		font-size: 26px;
-		letter-spacing: 0;
+		letter-spacing: -1px;
 	}
 	.rb-content-top .cta-btn{
 		text-align: center;
@@ -252,5 +250,14 @@ footer a{
 	}
 	footer{
 		text-align: center;
+	}
+}
+@media (max-width: 640px){
+	.rb-header{
+		height:290px;
+	}
+	.rb-header .subheadings{
+		font-size: 22px;
+		max-width: 230px;
 	}
 }
