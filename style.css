@@ -1,9 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Martel+Sans:400,300,700);
-
-h1, h2, h3, .subheadings{
-	font-family: 'Martel Sans', sans-serif;
-	font-weight: 400;
+h1, h2{
+	font-family: 'Zapf Humanist_601 W03 Rom', sans-serif;
+	/*font-weight: 400;*/
 }
+h3, .subheadings, .btn-primary{
+ 	font-family: 'Zapf Humanist_601 W03 Bd', sans-serif;	
+ }
 h2{
 	color:#085589;
 	font-size: 28px;
@@ -29,7 +30,8 @@ footer{
 	text-transform: uppercase;
 }
 .lighter-smaller{
-	font-weight: 300;
+	/*font-weight: 300;*/
+	font-family: 'Zapf Humanist_601 W03 Rom', sans-serif;
 	font-size: 0.7em;
 	/*color:#a0e0c6;*/
 }
@@ -42,7 +44,8 @@ footer{
 	padding:0 40px;a
 }
 .be-healthy-logo{
-	margin-top: 40px;
+	margin: 40px auto 0;
+	max-width: 250px;
 }
 .btn-primary{
 	background-image: -webkit-linear-gradient(top,#a1cadc 0,#6398ae 100%);
@@ -127,7 +130,7 @@ footer{
 	text-shadow:#000 2px 2px 10px;
 	text-shadow:rgba(0,0,0,0.5) 2px 2px 10px;
 	margin:40px auto;
-	font-weight: 400;
+	/*font-weight: 400;*/
 }
 .rb-content-top h3{
 	font-size: 1.5em;
@@ -153,7 +156,7 @@ footer{
 .person-name{
 	font-size: 16px;
 	color:#1e83a3;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	display: block;
 	margin-top: 5px;
 }
@@ -169,15 +172,15 @@ footer{
 }
 .footer-inner{
 	margin: auto;
-	max-width: 900px;
+	max-width: 910px;
 }
-.footer-inner>div{
+/*.footer-inner>div{
 	float: left;
 	display: block;
 	width: 100%;
-}
+}*/
 footer h4{
-	font-weight: 300;
+	/*font-weight: 300;*/
 	color:#555;
 	font-size: 20px;
 	margin-top: 30px;
@@ -187,9 +190,7 @@ footer ul{
 	padding-left:0;
 	line-height: 2em;
 }
-footer a{
-	font-weight: 700;
-}
+
 @media (min-width: 768px) {
 	.container-fluid{
 		/*width: 942px;*/
@@ -201,10 +202,13 @@ footer a{
 	.rb-header .subheadings>span{
 		display: block;
 	}
-	.footer-inner>div{
+/*	.footer-inner>div{
 		display: inline-block;
 		width: 300px;
 		padding-left: 40px;
+	}*/
+	.office-location{
+		padding-left: 10px;
 	}
 }
 @media (max-width: 1000px){
